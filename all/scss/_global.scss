@@ -1,0 +1,40 @@
+html,
+body {
+	height: 100%;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.main {
+	flex: 1 0 auto;
+	margin: 0 auto;
+	max-width: 920px;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+.container{
+  max-width: 873px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+	&__content {
+		max-width: 1152px;
+		padding: 0 10px;
+		margin: 0 auto;
+	}
+}
+
+
+
+
+
+
+
